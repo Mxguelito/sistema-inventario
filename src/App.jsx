@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+    <p style = {{color:"red"}}>Visible afuera del contexto</p>
       <AuthContextProvider>
         <span>Hola desde context</span>
       </AuthContextProvider>
