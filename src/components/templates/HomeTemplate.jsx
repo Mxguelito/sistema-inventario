@@ -13,4 +13,6 @@ align-items: center;
   overflow: hidden;
   background-color: ${(props)=>props.theme.bgtotal};
   color: ${({theme})=>theme.text};
+  width: 100%;
+
 `

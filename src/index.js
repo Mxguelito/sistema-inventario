@@ -15,3 +15,9 @@ export {Home} from'./pages/Home'
 export{MyRoutes}from'./routers/routes'
 //Templates
 export{HomeTemplate} from './components/templates/HomeTemplate';
+//Components
+export {Sidebar} from'./components/organismos/sidebar/Sidebar';
+export {SidebarCard} from'./components/organismos/sidebar/SidebarCard';
+export {Btnsave} from'./components/moleculas/Btnsave';
+export {Icono} from'./components/atomos/Icono';
+export {ToggleTema} from'./components/organismos/ToggleTema';

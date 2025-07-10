@@ -3,6 +3,7 @@
 
 import styled, { ThemeProvider } from "styled-components";
 import{AuthContextProvider,MyRoutes,Light,Dark}from "./index"
+import { Sidebar,SidebarCard } from "./index";
 
 import { createContext, useState } from 'react';
 import { Device } from "./style/breackpoints";
